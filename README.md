@@ -21,26 +21,26 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
-$ sudo yum install -y git gcc openssl-devel readline-devel zlib-devel
-$ git clone https://github.com/rbenv/rbenv.git ~/.rbenv
-$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
-$ ~/.rbenv/bin/rbenv init
-$ source ~/.bash_profile
-$ eval "$(rbenv init -)"
-$ type rbenv
-$ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
-$ rbenv install 2.3.1
-$ rbenv global 2.3.1
-$ ruby -v
-$ gem install bundler
-$ mkdir ~/.rbenv/plugins
-$ git clone git://github.com/dcarley/rbenv-sudo.git ~/.rbenv/plugins/rbenv-sudo
-$ sudo yum groupinstall "Development tools" - to install gcc compiler
-$ sudo yum install sqlite-devel
-$ git clone #YOUREPOSITORY
-$ cd #YOUREPOSITORY
-$ bundle
+* Installing RUBY on EC2 Instance
+```sudo yum install -y git gcc openssl-devel readline-devel zlib-devel
+git clone https://github.com/rbenv/rbenv.git ~/.rbenv
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+~/.rbenv/bin/rbenv init
+source ~/.bash_profile
+eval "$(rbenv init -)"
+type rbenv
+git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
+rbenv install 2.3.1
+rbenv global 2.3.1
+ruby -v
+gem install bundler
+mkdir ~/.rbenv/plugins
+git clone git://github.com/dcarley/rbenv-sudo.git ~/.rbenv/plugins/rbenv-sudo
+sudo yum groupinstall "Development tools" - to install gcc compiler
+sudo yum install sqlite-devel
+git clone #YOUREPOSITORY
+cd #YOUREPOSITORY
+bundle```
 
 Add gems to Gemfile
 gem  'execjs'
