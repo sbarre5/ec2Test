@@ -22,7 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * Installing RUBY on EC2 Instance
-```sudo yum install -y git gcc openssl-devel readline-devel zlib-devel
+```
+sudo yum install -y git gcc openssl-devel readline-devel zlib-devel
 git clone https://github.com/rbenv/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
 ~/.rbenv/bin/rbenv init
@@ -40,7 +41,8 @@ sudo yum groupinstall "Development tools" - to install gcc compiler
 sudo yum install sqlite-devel
 ```
 
-```git clone [REPOSITORY NAME]
+```
+git clone [REPOSITORY NAME]
 cd [REPOSITORY NAME]
 bundle
 ```
@@ -49,6 +51,7 @@ Add gems to Gemfile
 gem  'execjs'
 gem 'therubyracer', :platforms => :ruby
 
-```bundle 
+```
+bundle 
 rails s -p 3000 -b 0.0.0.0
 ```
