@@ -37,15 +37,18 @@ gem install bundler
 mkdir ~/.rbenv/plugins
 git clone git://github.com/dcarley/rbenv-sudo.git ~/.rbenv/plugins/rbenv-sudo
 sudo yum groupinstall "Development tools" - to install gcc compiler
-sudo yum install sqlite-devel```
+sudo yum install sqlite-devel
+```
 
-git clone #YOUREPOSITORY
-cd #YOUREPOSITORY
+```git clone [REPOSITORY NAME]
+cd [REPOSITORY NAME]
 bundle
+```
 
 Add gems to Gemfile
 gem  'execjs'
 gem 'therubyracer', :platforms => :ruby
 
-$ bundle 
-$ rails s -p 3000 -b 0.0.0.0```
+```bundle 
+rails s -p 3000 -b 0.0.0.0
+```
