@@ -40,11 +40,11 @@ sudo yum groupinstall "Development tools" - to install gcc compiler
 sudo yum install sqlite-devel
 git clone #YOUREPOSITORY
 cd #YOUREPOSITORY
-bundle```
+bundle
 
 Add gems to Gemfile
 gem  'execjs'
 gem 'therubyracer', :platforms => :ruby
 
 $ bundle 
-$ rails s -p 3000 -b 0.0.0.0﻿
+$ rails s -p 3000 -b 0.0.0.0```
