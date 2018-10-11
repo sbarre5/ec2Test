@@ -37,7 +37,8 @@ gem install bundler
 mkdir ~/.rbenv/plugins
 git clone git://github.com/dcarley/rbenv-sudo.git ~/.rbenv/plugins/rbenv-sudo
 sudo yum groupinstall "Development tools" - to install gcc compiler
-sudo yum install sqlite-devel
+sudo yum install sqlite-devel```
+
 git clone #YOUREPOSITORY
 cd #YOUREPOSITORY
 bundle
